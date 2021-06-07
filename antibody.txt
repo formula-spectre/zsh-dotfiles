@@ -1,0 +1,14 @@
+stanislas/allergen
+djui/alias-tips
+mafredri/zsh-async
+MichaelAquilina/zsh-auto-notify
+zdharma/fast-syntax-highlighting
+zpm-zsh/colorize
+nyquase/vi-mode
+zsh-users/zsh-autosuggestions
+andrewferrier/fzf-z
+Aloxaf/fzf-tab
+agkozak/zsh-z
+wting/autojump
+sinetoami/antibody-completion
+#AlexisBRENON/oh-my-zsh-reminder

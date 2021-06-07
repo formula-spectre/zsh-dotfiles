@@ -1,0 +1,8 @@
+taillog () 
+{ 
+    if [ -n "$( find /var/tmp/portage/ -type l -name "build.log" )" ]; then
+        find /var/tmp/portage/ -type l -name "build.log" | xargs ls -la;
+        echo -ne "\n\n";
+        tail -f $( find /var/tmp/portage/ -type l -name "build.log" );
+    fi
+}
