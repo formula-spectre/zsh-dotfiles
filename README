@@ -2,3 +2,6 @@ personal z shell dotfiles
 
 
 something something gpl muh free software
+
+note: zsh-vi-mode is slightly different, because it conflicts with some keybindings. the original can be seen here:
+https://github.com/jeffreytse/zsh-vi-mode
