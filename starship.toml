@@ -10,9 +10,9 @@ scan_timeout = 10
 add_newline = false
 
 [character]
-success_symbol = "[I](bold green)"
-error_symbol = "[I](bold red)"
-vicmd_symbol = "[V](bold green)"
+success_symbol = "[I](green)"
+error_symbol = "[I](red)"
+vicmd_symbol = "[V](green)"
 
 [directory]
 format= " @ [$path]($style)[$read_only]($read_only_style) "
@@ -32,7 +32,6 @@ format = '[\[$status\] ]($style)'
 disabled = false
 [username]
 
-style_user = "bold blue"
-format = "[cloud]($style)"
+style_user = "white"
 disabled = false
 show_always= true
