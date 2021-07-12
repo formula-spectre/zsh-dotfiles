@@ -17,3 +17,4 @@ alias zpool="doas zpool"
 alias zfs="doas zfs"
 alias unarc='arc unarchive'
 alias md='mkdir'
+alias ...='../../'

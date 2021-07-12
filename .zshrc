@@ -36,3 +36,7 @@ function cd() {
    builtin cd $@ &&
    exa -a --group-directories-first
 }
+#
+#if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+  #exec sx
+#fi
